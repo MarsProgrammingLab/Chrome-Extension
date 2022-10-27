@@ -1,8 +1,6 @@
 // Create two variables:
 // myLeads -> should be assignd to an empty array
 let myLeads = [];
-let oldLeads = [];
-
 // inputEl -> should be assigned to the text input field
 const inputEl = document.getElementById("input-el"); // const cannot be re-assigned
 // Retrieve element by ID
