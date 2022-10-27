@@ -3,23 +3,72 @@ body {
   padding: 10px;
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
     "Lucida Sans", Arial, sans-serif;
+  min-width: 400px;
+}
+h1 {
+  text-align: center;
+  color: rgb(107, 142, 2);
+  font-weight: bolder;
 }
 
 #input-el {
-  width: 100%; /* 100% + 10px + 10px -> padding-left and padding-right adds 20 px */
-
-  border: 2px solid rgb(107, 142, 2);
+  width: 100%;
+  border: 1px solid rgb(107, 142, 2);
   /* border-box allows an element's padding and border to be included with its total width 
   and height */
   padding: 10px;
   box-sizing: border-box;
-  margin-bottom: 5px;
+  margin-bottom: 4px;
+}
+.buttons button {
+  border: none;
+  font-weight: bolder;
+  padding: 10px 20px; /* 10px for top/bottom, 20px for left/right */
+  margin-top: 5px;
+  width: 150px;
 }
 
 #input-btn {
   background-color: rgb(107, 142, 2);
-  font-weight: bolder;
   color: white;
-  border: none;
-  padding: 10px 20px; /* 10px for top/bottom, 20px for left/right */
+}
+#delete-btn {
+  background-color: rgb(16, 118, 207);
+  color: rgb(255, 255, 255);
+}
+#tab-btn {
+  background-color: rgb(107, 142, 2);
+  color: white;
+}
+
+#tab-btn:hover {
+  background-color: white;
+  color: rgb(107, 142, 2);
+  border: 1px solid rgb(107, 142, 2);
+}
+
+#delete-btn:hover {
+  background-color: white;
+  color: rgb(16, 118, 207);
+  border: 1px solid rgb(16, 118, 207);
+}
+
+#input-btn:hover {
+  background-color: white;
+  color: rgb(107, 142, 2);
+  border: 1px solid rgb(107, 142, 2);
+}
+
+ul {
+  margin-top: 20px;
+  list-style: none;
+  padding-left: 0;
+}
+
+li {
+  margin-top: 5px;
+}
+
+a {
+  color: rgb(107, 142, 2);
 }
